@@ -1,7 +1,9 @@
 # Buildpacks
 
-> Buildpacks provide framework and runtime support for apps. Buildpacks typically examine your apps to determine what dependencies to download and how to configure the apps to communicate with bound services.
-> When you push an app, Cloud Foundry automatically detects an appropriate buildpack for it. This buildpack is used to compile or prepare your app for launch.
+> Buildpacks provide framework and runtime support for apps.
+> Buildpacks typically examine your apps to determine what dependencies to download and how to configure the apps to communicate with bound services.
+> When you push an app, Cloud Foundry automatically detects an appropriate buildpack for it.
+> This buildpack is used to compile or prepare your app for launch.
 
 [docs.cloudfoundry.org](https://docs.cloudfoundry.org/buildpacks/), [pivotal.io](https://pivotal.io/platform/pcf-components/buildpacks), [docs.pivotal.io](https://docs.pivotal.io/pivotalcf/2-6/buildpacks/)
 
@@ -22,9 +24,9 @@
 
 ## Examples
 
-* [.NET Core buildpack](https://github.com/cloudfoundry/dotnet-core-buildpack)
+- [.NET Core buildpack](https://github.com/cloudfoundry/dotnet-core-buildpack)
 
 ## How to build
 
-* [buildpack/pack](https://github.com/buildpack/pack)
-* [Build and push an image from an app using a Cloud Native Buildpack](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tasks-pack-build)
+- [buildpack/pack](https://github.com/buildpack/pack)
+- [Build and push an image from an app using a Cloud Native Buildpack](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tasks-pack-build)

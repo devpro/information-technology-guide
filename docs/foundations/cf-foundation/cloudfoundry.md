@@ -48,27 +48,37 @@
 
 ### Glossary
 
-- [Buildpacks](https://docs.cloudfoundry.org/buildpacks/) provide framework and runtime support for apps. Buildpacks typically examine your apps to determine what dependencies to download and how to configure the apps to communicate with bound services.
+- [Buildpacks](https://docs.cloudfoundry.org/buildpacks/) provide framework and runtime support for apps.
+Buildpacks typically examine your apps to determine what dependencies to download and how to configure the apps to communicate with bound services.
 
 - [**BOSH**](https://bosh.io/docs/) is an open source tool chain for release engineering, deployment and lifecycle management of large scale distributed services ([GitHub](https://github.com/cloudfoundry/bosh)).
 
-- [CFAR](https://www.cloudfoundry.org/application-runtime/), Cloud Foundray Application Runtime, is a code-centric platform that simplifies the life of developers (previously known as Elastic Runtime). It takes your code, written in any language or framework, and runs it on any cloud. This flexibility extends to services as well, thanks to the Open Service Broker API, which makes it easy to integrate the services your apps need to run.
+- [CFAR](https://www.cloudfoundry.org/application-runtime/), Cloud Foundray Application Runtime, is a code-centric platform that simplifies the life of developers (previously known as Elastic Runtime).
+It takes your code, written in any language or framework, and runs it on any cloud.
+This flexibility extends to services as well, thanks to the Open Service Broker API, which makes it easy to integrate the services your apps need to run.
 
-- [CFCR](https://www.cloudfoundry.org/container-runtime/), Cloud Foundray Container Runtime, is an open-source project that provides a solution for deploying and managing Kubernetes clusters using BOSH. See [Welcome to CFCR](https://docs-cfcr.cfapps.io/).
+- [CFCR](https://www.cloudfoundry.org/container-runtime/), Cloud Foundray Container Runtime, is an open-source project that provides a solution for deploying and managing Kubernetes clusters using BOSH.
+See [Welcome to CFCR](https://docs-cfcr.cfapps.io/).
 
 - [CAPI](https://docs.cloudfoundry.org/devguide/capi/client-libraries.html) stands for Cloud Controller API.
 
-- [CredHub](https://docs.cloudfoundry.org/credhub/index.html) is a component designed for centralized credential management in Cloud Foundry (CF). It is a single component that can address several scenarios in the CF ecosystem. At the highest level, CredHub centralizes and secures credential generation, storage, lifecycle management, and access.
+- [CredHub](https://docs.cloudfoundry.org/credhub/index.html) is a component designed for centralized credential management in Cloud Foundry (CF).
+It is a single component that can address several scenarios in the CF ecosystem.
+At the highest level, CredHub centralizes and secures credential generation, storage, lifecycle management, and access.
 
 - [**Diego**](https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html) is the container management system for Cloud Foundry ([cloudfoundry/diego-release](https://github.com/cloudfoundry/diego-release)).
   - [Diego Overview (CF Summit 2017)](https://www.youtube.com/watch?v=gB-nrdYTTKU)
   - [Differences Between DEA and Diego Architectures](https://docs.cloudfoundry.org/concepts/diego/dea-vs-diego.html)
 
-- [**Garden**](https://docs.cloudfoundry.org/concepts/architecture/garden.html) is the component that Cloud Foundry uses to create and manage isolated environments called containers. Each instance of an application deployed to Cloud Foundry runs within a container.
+- [**Garden**](https://docs.cloudfoundry.org/concepts/architecture/garden.html) is the component that Cloud Foundry uses to create and manage isolated environments called containers.
+Each instance of an application deployed to Cloud Foundry runs within a container.
 
-- [Gorouter](https://docs.cloudfoundry.org/concepts/architecture/router.html) routes traffic coming into Cloud Foundry to the appropriate component, whether the request comes from an operator addressing the Cloud Controller or from an application user accessing an app running on a Diego Cell. Handling both platform and app requests with the same process centralizes routing logic and simplifies support for WebSockets and other types of traffic (for example, through HTTP CONNECT). See [GitHub](https://github.com/cloudfoundry/gorouter).
+- [Gorouter](https://docs.cloudfoundry.org/concepts/architecture/router.html) routes traffic coming into Cloud Foundry to the appropriate component, whether the request comes from an operator addressing the Cloud Controller or from an application user accessing an app running on a Diego Cell.
+Handling both platform and app requests with the same process centralizes routing logic and simplifies support for WebSockets and other types of traffic (for example, through HTTP CONNECT).
+See [GitHub](https://github.com/cloudfoundry/gorouter).
 
-- [GrootFS](https://github.com/cloudfoundry/grootfs) is the container root filesystem management component for Garden. A container root filesystem or rootfs is often referred to as an _image_. See [Blog entry](https://www.cloudfoundry.org/blog/grootfs-container-image-management-cloud-foundry/).
+- [GrootFS](https://github.com/cloudfoundry/grootfs) is the container root filesystem management component for Garden. A container root filesystem or rootfs is often referred to as an _image_.
+See [Blog entry](https://www.cloudfoundry.org/blog/grootfs-container-image-management-cloud-foundry/).
 
 - [NATS](https://docs.cloudfoundry.org/concepts/architecture/messaging-nats.html) is a lightweight publish-subscribe and distributed queueing messaging system written in Ruby ([GitHub](https://github.com/nats-io/ruby-nats)).
 
@@ -85,128 +95,9 @@
 
 - [Slack](https://cloudfoundry.slack.com)
 
-## Command line
-
-### Version & help
-
-```bash
-cf version
-
-cf help
-
-cf <command> help
-```
-
-### Login & logout
-
-```bash
-cf login -a <cf-api-endpoint>
-
-cf logout
-```
-
-### Organizations
-
-```bash
-cf orgs
-
-cf org <orgname>
-```
-
-### Space
-
-```bash
-cf create-space -o <orgname> <newspacename>
-
-cf spaces
-
-cf space <spacename>
-```
-
-### Quota
-
-```bash
-cf quotas
-```
-
-### Targets
-
-```bash
-cf target
-
-cf target -s <newspacename>
-```
-
-### Applications
-
-```bash
-cf apps
-
-cf app <appname>
-
-cf push
-
-cf restage <appname>
-
-cf dev deploy-service <service-name>
-
-cf services
-
-cf marketplace -s elephantsql
-
-cf create-service elephantsql turtle cf-demo-db
-
-cf bind-service cf-demo cf-demo-db
-
-cf push pal-tracker --random-route -p src/PalTracker/bin/Release/netcoreapp2.1/publish
-
-cf set-env pal-tracker WELCOME_MESSAGE "Hello from Cloud Foundry"
-
-cf restart pal-tracker
-
-cf delete pal-tracker
-
-cf map-route
-
-cf marketplace
-
-cf create-service cleardb spark tracker-database
-
-cf bind-service pal-tracker tracker-database
-```
-
-### Scaling
-
-```bash
-# instance
-cf scale <appname> -i 3
-
-# disk size (causes a restart)
-cf scale <appname> -k 512M
-
-# memory limit (causes a restart)
-cf scale <appname> -m 1G
-```
-
-### Logging & events
-
-```bash
-cf logs <appname>
-
-cf logs <appname> --recent
-
-cf events
-```
-
-### Access
-
-```bash
-cf ssh
-```
-
 ## Recipes
 
 ### Integrate with Kubernetes
 
-* [CF for k8s](https://cf-for-k8s.io/)
-  * [The New Stack > Using Grafana to Monitor Cloud Foundry Objects and Apps Running on Kubernetes](https://thenewstack.io/using-grafana-to-monitor-cloud-foundry-objects-and-apps-running-on-kubernetes/) - March 5, 2021
+- [CF for k8s](https://cf-for-k8s.io/)
+  - [The New Stack > Using Grafana to Monitor Cloud Foundry Objects and Apps Running on Kubernetes](https://thenewstack.io/using-grafana-to-monitor-cloud-foundry-objects-and-apps-running-on-kubernetes/) - March 5, 2021
