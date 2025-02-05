@@ -6,6 +6,6 @@ lint-markdown:
   image: node:lts
   script:
     - npm install -g markdownlint-cli
-    - markdownlint README.md
+    - markdownlint "**/*.md"
 
 # TODO: YAML lint
