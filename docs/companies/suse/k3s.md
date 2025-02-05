@@ -5,9 +5,9 @@
 → [k3s.io](https://k3s.io/), [docs](https://rancher.com/docs/k3s/latest/en/), [GitHub](https://github.com/k3s-io/k3s),
 [suse.com/products/k3s](https://www.suse.com/products/k3s/)
 
-## General idea 
+## General idea
 
-<img src="https://k3s.io/img/how-it-works-k3s-revised.svg" style="width:1000px">
+![How K3s works](https://k3s.io/img/how-it-works-k3s-revised.svg)
 
 ## Quick start
 

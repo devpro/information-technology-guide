@@ -1,9 +1,11 @@
 stages:
   - build
 
-check-code:
+lint-markdown:
   stage: build
+  image: node:lts
   script:
-    - echo "Hello, $GITLAB_USER_LOGIN!"
-    # Markdown lint
-    # YAML lint
+    - npm install -g markdownlint-cli
+    - markdownlint README.md
+
+# TODO: YAML lint
