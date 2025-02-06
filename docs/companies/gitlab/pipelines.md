@@ -9,6 +9,7 @@
 * [Downstream pipelines](https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html)
 * [GitLab Runner Autoscaling](https://docs.gitlab.com/runner/runner_autoscale/)
 * [CI/CD Catalog](https://gitlab.com/explore/catalog)
+* [GitLab components](https://gitlab.com/components)
 
 ## Best practices
 
@@ -22,3 +23,4 @@ See also [10 préconisations pour une CI/CD efficace](https://www.linkedin.com/p
 ## Security concerns
 
 * [How to scan a full commit history to detect sensitive secrets](https://about.gitlab.com/blog/2025/02/06/how-to-scan-a-full-commit-history-to-detect-sensitive-secrets/)
+* [Tutorial: Security scanning in air-gapped environments](https://about.gitlab.com/blog/2025/02/05/tutorial-security-scanning-in-air-gapped-environments/)
