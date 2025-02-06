@@ -13,4 +13,4 @@ lint-yaml:
   image: python:3.13
   script:
     - pip install yamllint
-    -  yamllint .
+    - yamllint .
