@@ -2,7 +2,7 @@
 
 > GitLab is the most comprehensive AI-powered DevSecOps Platform
 
-🌐 [about](https://about.gitlab.com/), [console](https://gitlab.com/), [docs](https://docs.gitlab.com/)
+🌐 [about](https://about.gitlab.com/), [console](https://gitlab.com/), [docs](https://docs.gitlab.com/), [blog](https://about.gitlab.com/blog/)
 
 ## Introduction
 

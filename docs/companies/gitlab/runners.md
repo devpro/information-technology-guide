@@ -2,6 +2,19 @@
 
 🌐 [docs](https://docs.gitlab.com/runner/)
 
+## Executors
+
+* [Docker](https://docs.gitlab.com/runner/executors/docker.html)
+* [Docker Machine](https://docs.gitlab.com/runner/executors/docker_machine.html)
+* [Docker Autoscaler](https://docs.gitlab.com/runner/executors/docker_autoscaler.html)
+* [Instance](https://docs.gitlab.com/runner/executors/instance.html)
+* [Kubernetes](https://docs.gitlab.com/runner/executors/kubernetes/index.html)
+* [Shell](https://docs.gitlab.com/runner/executors/shell.html)
+* [SSH](https://docs.gitlab.com/runner/executors/ssh.html)
+* [VirtualBox](https://docs.gitlab.com/runner/executors/virtualbox.html)
+
+## Debugging
+
 ## Local execution
 
 * Use Docker image (workaround found on [gitlab-runner issue#4275](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/4275))
