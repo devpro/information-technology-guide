@@ -2,30 +2,33 @@
 
 > GitLab is the most comprehensive AI-powered DevSecOps Platform
 
-🌐 [about](https://about.gitlab.com/), [console](https://gitlab.com/), [docs](https://docs.gitlab.com/), [blog](https://about.gitlab.com/blog/)
+🌐 [about](https://about.gitlab.com/), [console](https://gitlab.com/), , [blog](https://about.gitlab.com/blog/)
 
 ## Introduction
 
 GitLab is a company that provides an Application Lifecycle Management (ALM) platform. It started in 2011 as an open-source project.
 
-GitLab have created [Handbook](handbook.md) to share internally and externally all their processes in one place (amazing!).
+* [Features](features.md)
 
-## Main features
-
-* SCM (Source Code Management)
-  * Git repositories
-  * Git branches
-  * Merge requests
-* Project management
-* CI/CD (Continuous Integration/Continuous Delivery) automation
-  * [Pipelines](./pipelines.md)
-  * [Runners](./runners.md)
-* Registries
-* Documentation (wiki)
-* Web hosting
-  * [GitLab Pages](./pages.md)
-
-## Offering
+## Product Offering
 
 * [GitLab Duo](duo.md)
 * [GitLab Platform](platform.md)
+
+## Services
+
+* [GitLab Professional Services](professional-services.md)
+
+## Learning
+
+* 🌟 [GitLab Docs](https://docs.gitlab.com/)
+* 🌟 [GitLab Handbook](handbook.md)
+* [GitLab Resources](https://about.gitlab.com/resources/)
+* [GitLab University](university.md)
+
+## Community
+
+* [Discord](https://discord.gg/gitlab)
+* [Events](https://about.gitlab.com/events/)
+* [Forum](https://forum.gitlab.com/)
+* [Meetups](https://about.gitlab.com/community/meetups/)
