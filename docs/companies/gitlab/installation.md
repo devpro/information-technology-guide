@@ -2,13 +2,13 @@
 
 ## Linux package (Omnibus)
 
-🌐 [docs](https://docs.gitlab.com/omnibus/)
+🌐 [docs.gitlab.com/omnibus](https://docs.gitlab.com/omnibus/)
 
 Omnibus GitLab is a customized fork of the Omnibus project from Chef.
 
 ## Container
 
-🌐 [docs](https://docs.gitlab.com/ee/install/docker/index.html)
+🌐 [docs.gitlab.com/install/docker](https://docs.gitlab.com/ee/install/docker/index.html)
 
 Images (on Docker Hub):
 
@@ -19,8 +19,8 @@ Images (on Docker Hub):
 
 ### Helm chart
 
-🌐 [docs](https://docs.gitlab.com/charts/)
+🌐 [docs.gitlab.com/charts](https://docs.gitlab.com/charts/)
 
 ### Kubernetes Operator
 
-🌐 [docs](https://docs.gitlab.com/operator/)
+🌐 [docs.gitlab.com/operator](https://docs.gitlab.com/operator/)

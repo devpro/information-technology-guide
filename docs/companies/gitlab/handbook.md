@@ -1,6 +1,6 @@
 # GitLab Handbook
 
-[handbook.gitlab.com](https://handbook.gitlab.com/), [code](https://gitlab.com/gitlab-com/content-sites/handbook)
+🌐 [handbook.gitlab.com](https://handbook.gitlab.com/), [code](https://gitlab.com/gitlab-com/content-sites/handbook)
 
 Here is what we can learn from GitLab from the Handbook!
 

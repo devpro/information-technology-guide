@@ -1,6 +1,8 @@
 # GitLab Runners
 
-🌐 [docs](https://docs.gitlab.com/runner/)
+> GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pipeline.
+
+🌐 [docs.gitlab.com/runner](https://docs.gitlab.com/runner/), [gitlab-org/gitlab-runner](https://gitlab.com/gitlab-org/gitlab-runner)
 
 ## Executors
 
@@ -13,21 +15,14 @@
 * [SSH](https://docs.gitlab.com/runner/executors/ssh.html)
 * [VirtualBox](https://docs.gitlab.com/runner/executors/virtualbox.html)
 
-## Debugging
+## Hosts
 
-## Local execution
+* [Windows](https://docs.gitlab.com/ee/ci/runners/hosted_runners/windows.html) ([blog](https://about.gitlab.com/blog/2020/01/21/windows-shared-runner-beta/))
 
-Use Docker image (workaround found on [gitlab-runner issue#4275](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/4275))
+## Infrastructure automation
 
-```bash
-# creates local folder
-mkdir -p .gitlab/runner/local
+### GRIT
 
-# displays help on a command
-docker run --rm --name gitlab-runner -v /var/run/docker.sock:/var/run/docker.sock -v $PWD/.gitlab/runner/local/config:/etc/gitlab-runner -v $PWD:$PWD --workdir $PWD gitlab/gitlab-runner exec help
+> The GitLab Runner Infrastructure Toolkit (GRIT) is a library of Terraform modules for deploying GitLab Runner and managing its lifecycle.
 
-# executes shell on "build" job
-docker run --rm --name gitlab-runner -v /var/run/docker.sock:/var/run/docker.sock -v $PWD/.gitlab/runner/local/config:/etc/gitlab-runner -v $PWD:$PWD --workdir $PWD gitlab/gitlab-runner exec shell build
-```
-
-Warning: Includes are not supported unfortunately ([Issue #2797](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/2797), alternative with [firecow/gitlab-ci-local](https://github.com/firecow/gitlab-ci-local))
+🌐 [gitlab-org/ci-cd/runner-tools/grit](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit)

@@ -1,6 +1,6 @@
 # GitLab pipelines
 
-[CI/CD pipelines](https://docs.gitlab.com/ee/ci/pipelines/)
+🌐 [CI/CD pipelines](https://docs.gitlab.com/ee/ci/pipelines/)
 
 ## Core feature
 
@@ -24,3 +24,8 @@ See also [10 préconisations pour une CI/CD efficace](https://www.linkedin.com/p
 
 * [How to scan a full commit history to detect sensitive secrets](https://about.gitlab.com/blog/2025/02/06/how-to-scan-a-full-commit-history-to-detect-sensitive-secrets/)
 * [Tutorial: Security scanning in air-gapped environments](https://about.gitlab.com/blog/2025/02/05/tutorial-security-scanning-in-air-gapped-environments/)
+
+## Debugging
+
+* [Run a pipeline in a container](runner-container.md#debug-pipeline-with-local-execution)
+* [Troubleshooting GitLab Runner](https://docs.gitlab.com/runner/faq/index.html)

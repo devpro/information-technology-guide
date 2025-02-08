@@ -1,6 +1,6 @@
 # GitLab Platform
 
-[gitlab.com](https://gitlab.com/)
+🌐 [gitlab.com](https://gitlab.com/), [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab)
 
 ## Hosting solutions
 

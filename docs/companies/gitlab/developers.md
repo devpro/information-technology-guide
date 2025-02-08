@@ -1,4 +1,6 @@
-# Contributing to or integrating with the GitLab project
+# Develop for GitLab
+
+> Contributing to, or integrating with, the GitLab project
 
 🌐 [Developer Portal](https://developer.gitlab.com/), [Extend with GitLab](https://docs.gitlab.com/ee/api/), [Contribute to GitLab](https://about.gitlab.com/community/contribute/)
 
