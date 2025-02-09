@@ -30,7 +30,8 @@
 
 #### GraphQL API
 
-🌐 [docs.gitlab.com/api/graphql](https://docs.gitlab.com/ee/api/graphql/)
+🌐 [docs.gitlab.com/api/graphql](https://docs.gitlab.com/ee/api/graphql/),
+[docs.gitlab.com/development/graphql_guide](https://docs.gitlab.com/ee/development/graphql_guide/)
 
 ### Project integrations
 

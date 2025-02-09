@@ -2,6 +2,8 @@
 
 ## Pipelines
 
+🌐 [CI/CD development guidelines](https://docs.gitlab.com/ee/development/cicd/)
+
 ### Software programming principles
 
 Acronym | Meaning

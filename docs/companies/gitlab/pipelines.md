@@ -6,14 +6,19 @@
 
 🌐 [CI/CD YAML syntax reference](https://docs.gitlab.com/ee/ci/yaml/)
 
-## Features
+### Features
 
 * [Services](https://docs.gitlab.com/ee/ci/services/)
 
-## Reusability
+### Reusability
 
-* [CI/CD Catalog](https://gitlab.com/explore/catalog)
-* [GitLab components](https://gitlab.com/components)
+#### Components
+
+🌐 [GitLab components](https://gitlab.com/components)
+
+#### Catalog
+
+🌐 [CI/CD Catalog](https://gitlab.com/explore/catalog)
 
 ## Pipelines types
 

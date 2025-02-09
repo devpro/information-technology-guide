@@ -20,7 +20,7 @@
 * [Linux](https://docs.gitlab.com/ee/ci/runners/hosted_runners/linux.html)
 * [GPU-enabled (Linux)](https://docs.gitlab.com/ee/ci/runners/hosted_runners/gpu_enabled.html)
 * [macOS](https://docs.gitlab.com/ee/ci/runners/hosted_runners/macos.html)
-* [Windows](https://docs.gitlab.com/ee/ci/runners/hosted_runners/windows.html) ([blog](https://about.gitlab.com/blog/2020/01/21/windows-shared-runner-beta/))
+* [Windows](https://docs.gitlab.com/ee/ci/runners/hosted_runners/windows.html) ([blog](https://about.gitlab.com/blog/2020/01/21/windows-shared-runner-beta/), [Windows version support](https://docs.gitlab.com/runner/install/support-policy.html#windows-version-support))
 
 ## Installation & maintenance
 

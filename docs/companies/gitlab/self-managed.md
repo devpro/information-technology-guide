@@ -5,6 +5,7 @@
 ## Design
 
 * [Reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
+* [Installation requirements](https://docs.gitlab.com/ee/install/requirements.html)
 
 ## Installation
 
@@ -32,3 +33,7 @@ Images (on Docker Hub):
 #### Kubernetes Operator
 
 🌐 [docs.gitlab.com/operator](https://docs.gitlab.com/operator/)
+
+## Infrastruction automation
+
+* [GitLab Chef Cookbooks](https://gitlab.com/gitlab-cookbooks)

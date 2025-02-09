@@ -2,7 +2,7 @@
 
 🌐 [handbook.gitlab.com](https://handbook.gitlab.com/) ([gitlab-com/content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook))
 
-Here is what we can learn from GitLab from the Handbook!
+Here is what we can learn about GitLab from the Handbook!
 
 ## Culture
 

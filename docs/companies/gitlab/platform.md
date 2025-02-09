@@ -14,6 +14,7 @@
 
 * [Administer GitLab](https://docs.gitlab.com/ee/administration/)
 * [Architecture](platform-architecture.md)
+* [Operations](operations.md)
 * [Self Managed](self-managed.md)
 * [Runner](runner.md)
 
