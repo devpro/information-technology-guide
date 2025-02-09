@@ -1,4 +1,4 @@
-# GitLab Runners
+# GitLab Runner
 
 > GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pipeline.
 
@@ -15,14 +15,25 @@
 * [SSH](https://docs.gitlab.com/runner/executors/ssh.html)
 * [VirtualBox](https://docs.gitlab.com/runner/executors/virtualbox.html)
 
-## Hosts
+## Hosted runners
 
+* [Linux](https://docs.gitlab.com/ee/ci/runners/hosted_runners/linux.html)
+* [GPU-enabled (Linux)](https://docs.gitlab.com/ee/ci/runners/hosted_runners/gpu_enabled.html)
+* [macOS](https://docs.gitlab.com/ee/ci/runners/hosted_runners/macos.html)
 * [Windows](https://docs.gitlab.com/ee/ci/runners/hosted_runners/windows.html) ([blog](https://about.gitlab.com/blog/2020/01/21/windows-shared-runner-beta/))
 
-## Infrastructure automation
+## Installation & maintenance
+
+### Autoscaling
+
+🌐 [docs.gitlab.com/runner/runner_autoscale](https://docs.gitlab.com/runner/runner_autoscale/)
 
 ### GRIT
 
 > The GitLab Runner Infrastructure Toolkit (GRIT) is a library of Terraform modules for deploying GitLab Runner and managing its lifecycle.
 
 🌐 [gitlab-org/ci-cd/runner-tools/grit](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit)
+
+## Support
+
+* [Troubleshooting GitLab Runner](https://docs.gitlab.com/runner/faq/index.html)

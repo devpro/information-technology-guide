@@ -2,7 +2,7 @@
 
 > GitLab is the most comprehensive AI-powered DevSecOps Platform
 
-🌐 [about](https://about.gitlab.com/), [console](https://gitlab.com/), [blog](https://about.gitlab.com/blog/)
+🌐 [about.gitlab.com](https://about.gitlab.com/)
 
 ## Introduction
 
@@ -10,18 +10,18 @@ GitLab is a company that provides an Application Lifecycle Management (ALM) plat
 
 * [Features](features.md)
 
-## Product Offering
+## Offering
 
 * [GitLab Duo](duo.md)
-* [GitLab Platform](platform.md)
-
-## Services
-
+* 🌟 [GitLab Platform](platform.md)
 * [GitLab Professional Services](professional-services.md)
 
 ## Learning
 
-* 🌟 [GitLab Docs](https://docs.gitlab.com/)
+* 🌟 [GitLab Blog](https://about.gitlab.com/blog/)
+* 🌟 [GitLab Documentation](https://docs.gitlab.com/)
+* [GitLab FAQ](faq.md)
+* [GitLab Glossary](glossary.md)
 * 🌟 [GitLab Handbook](handbook.md)
 * [GitLab Resources](https://about.gitlab.com/resources/)
 * [GitLab University](university.md)
