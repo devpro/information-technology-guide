@@ -2,7 +2,7 @@
 
 > GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pipeline.
 
-🌐 [docs.gitlab.com/runner](https://docs.gitlab.com/runner/), [gitlab-org/gitlab-runner](https://gitlab.com/gitlab-org/gitlab-runner)
+🌐 [docs/runner](https://docs.gitlab.com/runner/) ([gitlab-org/gitlab-runner](https://gitlab.com/gitlab-org/gitlab-runner))
 
 ## Executors
 
@@ -20,13 +20,13 @@
 * [Linux](https://docs.gitlab.com/ee/ci/runners/hosted_runners/linux.html)
 * [GPU-enabled (Linux)](https://docs.gitlab.com/ee/ci/runners/hosted_runners/gpu_enabled.html)
 * [macOS](https://docs.gitlab.com/ee/ci/runners/hosted_runners/macos.html)
-* [Windows](https://docs.gitlab.com/ee/ci/runners/hosted_runners/windows.html) ([blog](https://about.gitlab.com/blog/2020/01/21/windows-shared-runner-beta/), [Windows version support](https://docs.gitlab.com/runner/install/support-policy.html#windows-version-support))
+* [Windows](https://docs.gitlab.com/ee/ci/runners/hosted_runners/windows.html)
 
 ## Installation & maintenance
 
 ### Autoscaling
 
-🌐 [docs.gitlab.com/runner/runner_autoscale](https://docs.gitlab.com/runner/runner_autoscale/)
+🌐 [docs/runner/runner_autoscale](https://docs.gitlab.com/runner/runner_autoscale/)
 
 ### GRIT
 
@@ -36,4 +36,11 @@
 
 ## Support
 
-* [Troubleshooting GitLab Runner](https://docs.gitlab.com/runner/faq/index.html)
+### Troubleshooting
+
+🌐 [docs/runner/faq](https://docs.gitlab.com/runner/faq/index.html)
+
+### Windows runner
+
+* [blog](https://about.gitlab.com/blog/2020/01/21/windows-shared-runner-beta/)
+* [Windows version support](https://docs.gitlab.com/runner/install/support-policy.html#windows-version-support)

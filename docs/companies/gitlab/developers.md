@@ -12,7 +12,7 @@
 
 🌐 [marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow) ([gitlab-org/gitlab-vscode-extension](https://gitlab.com/gitlab-org/gitlab-vscode-extension))
 
-📝 [docs.gitlab.com/editor_extensions/visual_studio_code](https://docs.gitlab.com/ee/editor_extensions/visual_studio_code/)
+📝 [docs/editor_extensions/visual_studio_code](https://docs.gitlab.com/ee/editor_extensions/visual_studio_code/)
 
 ## SDK
 
@@ -26,17 +26,17 @@
 
 #### Rest API
 
-🌐 [docs.gitlab.com/api/rest](https://docs.gitlab.com/ee/api/rest/)
+🌐 [docs/api/rest](https://docs.gitlab.com/ee/api/rest/)
 
 #### GraphQL API
 
-🌐 [docs.gitlab.com/api/graphql](https://docs.gitlab.com/ee/api/graphql/),
-[docs.gitlab.com/development/graphql_guide](https://docs.gitlab.com/ee/development/graphql_guide/)
+🌐 [docs/api/graphql](https://docs.gitlab.com/ee/api/graphql/),
+[docs/development/graphql_guide](https://docs.gitlab.com/ee/development/graphql_guide/)
 
 ### Project integrations
 
-🌐 [docs.gitlab.com/user/project/integrations](https://docs.gitlab.com/ee/user/project/integrations/)
+🌐 [docs/user/project/integrations](https://docs.gitlab.com/ee/user/project/integrations/)
 
 ### Webhooks
 
-🌐 [docs.gitlab.com/user/project/integrations/webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html)
+🌐 [docs/user/project/integrations/webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html)

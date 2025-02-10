@@ -19,6 +19,7 @@ GitLab is a company that provides an Application Lifecycle Management (ALM) plat
 ## Learning
 
 * 🌟 [GitLab Blog](https://about.gitlab.com/blog/)
+* [GitLab Certifications](https://university.gitlab.com/pages/certifications)
 * 🌟 [GitLab Documentation](https://docs.gitlab.com/)
 * [GitLab FAQ](faq.md)
 * [GitLab Glossary](glossary.md)
