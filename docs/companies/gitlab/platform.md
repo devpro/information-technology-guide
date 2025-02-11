@@ -23,6 +23,7 @@
 ## Administration
 
 * [Architecture](platform-architecture.md)
+* [Management](management.md)
 * [Self Managed](self-managed.md)
 * [Runner](runner.md)
 

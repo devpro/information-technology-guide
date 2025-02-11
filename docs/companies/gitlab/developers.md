@@ -40,3 +40,13 @@
 ### Webhooks
 
 🌐 [docs/user/project/integrations/webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html)
+
+## Remote development
+
+### Web IDE
+
+🌐 [docs/user/project/web_ide](https://docs.gitlab.com/ee/user/project/web_ide/)
+
+### Workspaces
+
+🌐 [docs/user/workspace](https://docs.gitlab.com/ee/user/workspace/)
