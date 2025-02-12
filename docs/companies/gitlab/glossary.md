@@ -6,7 +6,7 @@ Acronym  | Meaning
 ---------|-------------------------------------------
 **ARR**  | Annual Recurring Revenue
 **CD**   | Continuous Delivery
-**CI**   | Continuous Integration/Continuous Delivery
+**CI**   | Continuous Integration
 **DAST** | Dynamic Application Security Testing
 **OKR**  | Objectives and Key Results
 **RPS**  | Request Per Second

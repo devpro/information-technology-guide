@@ -1,4 +1,4 @@
-# GitLab Management
+# GitLab management
 
 ## Organization
 

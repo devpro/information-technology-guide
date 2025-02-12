@@ -50,3 +50,14 @@
 ### Workspaces
 
 🌐 [docs/user/workspace](https://docs.gitlab.com/ee/user/workspace/)
+
+## Methodology
+
+### Software programming principles
+
+Acronym | Meaning
+--------|-----------------------------------------------------------------------------------------------------
+DRY     | Don't repeat yourself
+KISS    | Keep it simple stupid
+SOLID   | Single responsibility, open–closed, Liskov substitution, interface segregation, dependency inversion
+YAGNI   | You aren't gonna need it

@@ -1,6 +1,6 @@
 # Testing
 
-## Reason
+## Objectives
 
 * [Five Factor Testing](https://madeintandem.com/blog/five-factor-testing/)
 
