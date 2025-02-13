@@ -2,7 +2,8 @@
 
 ## Software vendors & services
 
-* [Akuity](https://akuity.io/)
+* [37signals](37signals/37signals.md)
+* [Akuity](akuity/akuity.md)
 * [Amazon](amazon/amazon.md)
 * [Aqua](aqua/aqua.md)
 * [Cisco](cisco/cisco.md)
@@ -11,14 +12,16 @@
 * [Docker](docker/docker.md)
 * [Elastic](elastic/elastic.md)
 * [Elastisys](elastisys/elastsys.md)
-* [Gitlab](gitlab/gitlab.md)
+* [GitLab](gitlab/gitlab.md)
 * [Google](google/google.md)
 * [Grafana Labs](grafana-labs/grafana-labs.md)
 * [Harness](harness/harness.md)
 * [HashiCorp](hashicorp/hashicorp.md)
-* [Isovalent](https://isovalent.com/)
+* [Improbable](improbable/improbable.md)
+* [Isovalent](isovalent/isovalent.md)
 * [JetBrains](jetbrains/jetbrains.md)
 * [JFrog](jfrog/jfrog.md)
+* [Loft](loft/loft.md)
 * [Microsoft](microsoft/microsoft.md)
 * [Mongodb](mongodb/mongodb.md)
 * [Netskope](netskope/netskope.md)
@@ -33,7 +36,9 @@
 * [Sysdig](sysdig/sysdig.md)
 * [Tailwind Labs](tailwind-labs/tailwind-labs.md)
 * [Tigera](tigera/tigera.md)
+* [Traefik Labs](traefik-labs/traefik-labs.md)
 * [Ubuntu](ubuntu/ubuntu.md)
+* [Upbound](upbound/upbound.md)
 * [VMware](vmware/vmware.md)
 
 ## Cloud providers
@@ -56,7 +61,7 @@ Name                                      | Country
 [Scaleway](https://www.scaleway.com/)     | France
 [UpCloud](https://upcloud.com/)           | Finland
 
-See also [eucloud.tech](https://www.eucloud.tech/eu-providers/cloud)
+<!-- [eucloud.tech](https://www.eucloud.tech/eu-providers/cloud) -->
 
 ### Serverless
 
