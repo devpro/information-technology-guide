@@ -7,6 +7,7 @@ Accronym | Meaning
 BGP      | Border Gateway Protocol
 DKIM     | Domain Keys Identified Mail
 DMARC    | Domain-based Message Authentication Reporting and Conformance
+FOSS     | Free and open source software
 SRE      | Site Reliability Engineering
 SPF      | Sender Policy Framework
 

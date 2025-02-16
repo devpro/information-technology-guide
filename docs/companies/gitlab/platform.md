@@ -35,6 +35,7 @@
 * [Developers](developers.md)
 * [Migration](migration.md)
 * [Observability](observability.md)
+* [Org](org.md)
 * [Pages](pages.md)
 * [Pipelines](pipelines.md)
 * [Security](security.md)

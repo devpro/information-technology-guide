@@ -94,6 +94,10 @@ Vulnerability management policy                                                 
 
 🌐 [docs/user/application_security/vulnerabilities](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/)
 
+### Generation
+
+- [SBOM](sbom.md)
+
 ## Learning
 
 ### Getting started

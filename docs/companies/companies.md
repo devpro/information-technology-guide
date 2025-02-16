@@ -11,6 +11,7 @@
 * [Cisco](cisco/cisco.md)
 * [Civo](civo/civo.md)
 * [Cloudflare](cloudflare/cloudflare.md)
+* [Code Climate](code-climate/code-climate.md)
 * [Confluent](confluent/confluent.md)
 * [Docker](docker/docker.md)
 * [Elastic](elastic/elastic.md)

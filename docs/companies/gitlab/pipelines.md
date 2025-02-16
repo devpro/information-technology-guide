@@ -47,3 +47,8 @@
 
 * [Debugging CI/CD pipelines](https://docs.gitlab.com/ee/ci/debugging.html)
 * [Run a pipeline locally](runner-container.md#debug-pipeline-with-local-execution)
+
+## Examples
+
+* [GitLab pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipelines)
+([`.gitlab-ci.yml`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab-ci.yml), [`.gitlab/ci`](https://gitlab.com/gitlab-org/gitlab/-/tree/master/.gitlab/ci))

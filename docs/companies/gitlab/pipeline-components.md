@@ -14,6 +14,12 @@
 
 📝 [docs/ci/components/#cicd-catalog](https://docs.gitlab.com/ee/ci/components/#cicd-catalog)
 
-### Components managed by GitLab
+### GitLab components
 
-🌐 [GitLab components](https://gitlab.com/components)
+🌐 [components](https://gitlab.com/components)
+
+[Dependency Scanning](https://gitlab.com/components/dependency-scanning) generate a CycloneDX Software Bill of Materials which is then used by GitLab to identify a project's licenses and vulnerable components
+
+### Google components
+
+🌐 [google-gitlab-components](https://gitlab.com/google-gitlab-components)

@@ -14,12 +14,15 @@ GitLab is a company that provides an [Application Lifecycle Management (ALM)](al
 * 🌟 [GitLab Platform](platform.md)
 * [GitLab Professional Services](professional-services.md)
 
+## Standards
+
+* [GitLab Flow](flow.md)
+
 ## Learning
 
 * 🌟 [GitLab Blog](https://about.gitlab.com/blog/)
 * [GitLab Certifications](https://university.gitlab.com/pages/certifications)
 * 🌟 [GitLab Documentation](https://docs.gitlab.com/)
-* [GitLab FAQ](faq.md)
 * [GitLab Glossary](glossary.md)
 * 🌟 [GitLab Handbook](handbook.md)
 * [GitLab Resources](resources.md)
