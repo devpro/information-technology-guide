@@ -1,4 +1,11 @@
 # Standards
 
+## General
+
+* [Email](email.md)
 * [Glossary](glossary.md)
-* Sales process \ [MEDDIC](meddic.md)
+* [Network](network.md)
+
+## Sales process
+
+* [MEDDIC](meddic.md)
