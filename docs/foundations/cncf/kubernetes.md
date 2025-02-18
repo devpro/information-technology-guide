@@ -1,5 +1,9 @@
 # Kubernetes
 
+## Sub-projects
+
+* [Cluster API](cluster-api.md)
+
 ## Security
 
 [Kubernetes Security Profiles Operator](https://github.com/kubernetes-sigs/security-profiles-operator)
