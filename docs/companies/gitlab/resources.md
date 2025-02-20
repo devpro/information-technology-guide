@@ -4,11 +4,11 @@
 
 ## Brand
 
-[design.gitlab.com](https://design.gitlab.com/)
+🌐 [GitLab logos and brand assets](https://about.gitlab.com/press/press-kit/)
 
-[handbook/marketing/brand-and-product-marketing/brand](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/)
-
-[frontend/fonts](https://gitlab-org.gitlab.io/frontend/fonts/)
+📝 [GitLab Brand Guidelines](https://design.gitlab.com/brand-overview/introduction),
+[GitLab Brand Handbook](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/),
+[GitLab Fonts](https://gitlab-org.gitlab.io/frontend/fonts/)
 
 ## Video content
 
