@@ -41,6 +41,14 @@ Images (on Docker Hub):
 
 ## Infrastruction automation
 
+### GitLab Environment Toolkit
+
+> The GitLab Environment Toolkit (GET) is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures
+
+🌐 [gitlab-org/gitlab-environment-toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
+
+📝 [GET Deployment Workshop](https://gitlab.com/gitlab-org/professional-services-automation/tools/implementation/get-deployment-workshop), [GitLab Deployment Workshop](https://gitlab.com/gitlab-org/professional-services-automation/tools/implementation/gitlab-deployment-workshop/)
+
 ### Chef Cookbooks
 
 🌐 [gitlab-cookbooks](https://gitlab.com/gitlab-cookbooks)

@@ -104,6 +104,10 @@ Vulnerability management policy                                                 
 
 🌐 [docs/user/application_security/get-started-security](https://docs.gitlab.com/ee/user/application_security/get-started-security.html)
 
+### Delivery Kits
+
+- [gitlab-org/professional-services-automation/security-delivery-kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/security-delivery-kits/security-delivery-kit)
+
 ### Tutorials
 
 - [ ] [Set up a scan execution policy](https://docs.gitlab.com/ee/tutorials/scan_execution_policy/)
