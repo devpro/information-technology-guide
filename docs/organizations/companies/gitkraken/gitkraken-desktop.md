@@ -36,6 +36,12 @@ Shortcuts:
 
 - `Ctrl`+`Shift`+`F` toggles full screen
 
+Disable AI integration:
+
+- Open **File** > **Preferences...** and clik *External Tools* from the left menu
+  - In **Coding Agent**, select `None`
+  - In **Agent Status Integrations**, click **Uninstall Plugin** if it displayed
+
 Know issues:
 
 - GitKraken Desktop window may disappear and the only solution is to kill and restart the application
